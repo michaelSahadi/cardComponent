@@ -50,7 +50,7 @@ h3 {
 }
 
 .info-container {
-  padding-left: 40px;
+  padding-left: 60px;
   padding-top: 60px;
   width: 500px;
   height: 400px;
@@ -78,14 +78,6 @@ h1 {
   /* align-items: center; */
 }
 
-.image-container {
-  width: 500px;
-  height: 400px;
-  background: hsl(277, 64%, 61%);
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
-
 .stat {
   width: 100px;
   margin-right: 20px;
@@ -94,11 +86,18 @@ h1 {
 .cat {
   margin-top: 10px;
 }
-.image {
+
+.image-container {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+  background-color: hsl(277, 64%, 61%);
+  background-blend-mode: multiply;
+  background-image: url(images/image-header-desktop.jpg);
   width: 500px;
   height: 400px;
-  object-fit: cover;
-  opacity: 0.3;
 }
+
+/* .image {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+} */
